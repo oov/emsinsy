@@ -1,0 +1,2017 @@
+MACRON="¡¼"
+PHONEME_CL="cl"
+VOWEL_REDUCTION="¡Ç"
+VOWELS="a,i,u,e,o,N"
+MULTIBYTE_CHAR_RANGE="2,0xA1,0xFE;3,0x8F,0x8F"
+ƒNƒ@ k w a
+ƒNƒB k w i
+ƒNƒD k w u
+ƒNƒF k w e
+ƒNƒH k w o
+ƒNƒŽ k w a
+ƒOƒ@ g w a
+ƒOƒB g w i
+ƒOƒD g w u
+ƒOƒF g w e
+ƒOƒH g w o
+ƒOƒŽ g w a
+‚­‚Ÿ k w a
+‚­‚¡ k w i
+‚­‚£ k w u
+‚­‚¥ k w e
+‚­‚§ k w o
+‚­‚ì k w a
+‚®‚Ÿ g w a
+‚®‚¡ g w i
+‚®‚£ g w u
+‚®‚¥ g w e
+‚®‚§ g w o
+‚®‚ì g w a
+‚ñ N
+‚ð o
+‚ï e
+‚î i
+‚í w a
+‚ì w a
+‚ë r o
+‚ê r e
+‚é r u
+‚è‚å ry o
+‚è‚ã ry u
+‚è‚á ry a
+‚è‚¥ ry e
+‚è r i
+‚ç r a
+‚æ y o
+‚å y o
+‚ä y u
+‚ã y u
+‚â y a
+‚á y a
+‚à m o
+‚ß m e
+‚Þ m u
+‚Ý‚å my o
+‚Ý‚ã my u
+‚Ý‚á my a
+‚Ý‚¥ my e
+‚Ý m i
+‚Ü m a
+‚Û p o
+‚Ú b o
+‚Ù h o
+‚Ø p e
+‚× b e
+‚Ö h e
+‚Õ p u
+‚Ô b u
+‚Ó‚§ f o
+‚Ó‚¥ f e
+‚Ó‚¡ f i
+‚Ó‚Ÿ f a
+‚Ó f u
+‚Ò‚å py o
+‚Ò‚ã py u
+‚Ò‚á py a
+‚Ò‚¥ py e
+‚Ò p i
+‚Ñ‚å by o
+‚Ñ‚ã by u
+‚Ñ‚á by a
+‚Ñ‚¥ by e
+‚Ñ b i
+‚Ð‚å hy o
+‚Ð‚ã hy u
+‚Ð‚á hy a
+‚Ð‚¥ hy e
+‚Ð h i
+‚Ï p a
+‚Î b a
+‚Í h a
+‚Ì n o
+‚Ë n e
+‚Ê n u
+‚É‚å ny o
+‚É‚ã ny u
+‚É‚á ny a
+‚É‚¥ ny e
+‚É n i
+‚È n a
+‚Ç‚£ d u
+‚Ç d o
+‚Æ‚£ t u
+‚Æ t o
+‚Å‚å dy o
+‚Å‚ã dy u
+‚Å‚á dy a
+‚Å‚¥ dy e
+‚Å‚¡ d i
+‚Å d e
+‚Ä‚å ty o
+‚Ä‚ã ty u
+‚Ä‚á ty a
+‚Ä‚¡ t i
+‚Ä t e
+‚Ã z u
+‚Â‚§ ts o
+‚Â‚¥ ts e
+‚Â‚¡ ts i
+‚Â‚Ÿ ts a
+‚Â ts u
+‚Á cl
+‚À j i
+‚¿‚å ch o
+‚¿‚ã ch u
+‚¿‚á ch a
+‚¿‚¥ ch e
+‚¿ ch i
+‚¾ d a
+‚½ t a
+‚¼ z o
+‚» s o
+‚º z e
+‚¹ s e
+‚¸‚¡ z i
+‚¸ z u
+‚·‚¡ s i
+‚· s u
+‚¶‚å j o
+‚¶‚ã j u
+‚¶‚á j a
+‚¶‚¥ j e
+‚¶ j i
+‚µ‚å sh o
+‚µ‚ã sh u
+‚µ‚á sh a
+‚µ‚¥ sh e
+‚µ‚¡ s i
+‚µ sh i
+‚´ z a
+‚³ s a
+‚² g o
+‚± k o
+‚° g e
+‚¯ k e
+‚® g u
+‚­ k u
+‚¬‚å gy o
+‚¬‚ã gy u
+‚¬‚á gy a
+‚¬‚¥ gy e
+‚¬ g i
+‚«‚å ky o
+‚«‚ã ky u
+‚«‚á ky a
+‚«‚¥ ky e
+‚« k i
+‚ª g a
+‚© k a
+‚¨ o
+‚§ o
+‚¦ e
+‚¥ e
+‚¤‚§ w o
+‚¤‚¥ w e
+‚¤‚¡ w i
+‚¤ u
+‚£ u
+‚¢‚¥ y e
+‚¢ i
+‚¡ i
+‚  a
+‚Ÿ a
+ƒ”‚å by o
+ƒ”‚ã by u
+ƒ”‚á by a
+ƒ”‚§ v o
+ƒ”‚¥ v e
+ƒ”‚¡ v i
+ƒ”‚Ÿ v a
+ƒ”ƒ‡ by o
+ƒ”ƒ… by u
+ƒ”ƒƒ by a
+ƒ”ƒH v o
+ƒ”ƒF v e
+ƒ”ƒB v i
+ƒ”ƒ@ v a
+ƒ” v u
+ƒ“ N
+ƒ’ o
+ƒ‘ e
+ƒ i
+ƒ w a
+ƒŽ w a
+ƒ r o
+ƒŒ r e
+ƒ‹ r u
+ƒŠƒ‡ ry o
+ƒŠƒ… ry u
+ƒŠƒƒ ry a
+ƒŠƒF ry e
+ƒŠ r i
+ƒ‰ r a
+ƒˆ y o
+ƒ‡ y o
+ƒ† y u
+ƒ… y u
+ƒ„ y a
+ƒƒ y a
+ƒ‚ m o
+ƒ m e
+ƒ€ m u
+ƒ~ƒ‡ my o
+ƒ~ƒ… my u
+ƒ~ƒƒ my a
+ƒ~ƒF my e
+ƒ~ m i
+ƒ} m a
+ƒ| p o
+ƒ{ b o
+ƒz h o
+ƒy p e
+ƒx b e
+ƒw h e
+ƒv p u
+ƒu b u
+ƒtƒH f o
+ƒtƒF f e
+ƒtƒB f i
+ƒtƒ@ f a
+ƒt f u
+ƒsƒ‡ py o
+ƒsƒ… py u
+ƒsƒƒ py a
+ƒsƒF py e
+ƒs p i
+ƒrƒ‡ by o
+ƒrƒ… by u
+ƒrƒƒ by a
+ƒrƒF by e
+ƒr b i
+ƒqƒ‡ hy o
+ƒqƒ… hy u
+ƒqƒƒ hy a
+ƒqƒF hy e
+ƒq h i
+ƒp p a
+ƒo b a
+ƒn h a
+ƒm n o
+ƒl n e
+ƒk n u
+ƒjƒ‡ ny o
+ƒjƒ… ny u
+ƒjƒƒ ny a
+ƒjƒF ny e
+ƒj n i
+ƒi n a
+ƒhƒD d u
+ƒh d o
+ƒgƒD t u
+ƒg t o
+ƒfƒ‡ dy o
+ƒfƒ… dy u
+ƒfƒƒ dy a
+ƒfƒF dy e
+ƒfƒB d i
+ƒf d e
+ƒeƒ‡ ty o
+ƒeƒ… ty u
+ƒeƒƒ ty a
+ƒeƒB t i
+ƒe t e
+ƒd z u
+ƒcƒH ts o
+ƒcƒF ts e
+ƒcƒB ts i
+ƒcƒ@ ts a
+ƒc ts u
+ƒb cl
+ƒa j i
+ƒ`ƒ‡ ch o
+ƒ`ƒ… ch u
+ƒ`ƒƒ ch a
+ƒ`ƒF ch e
+ƒ` ch i
+ƒ_ d a
+ƒ^ t a
+ƒ] z o
+ƒ\ s o
+ƒ[ z e
+ƒZ s e
+ƒYƒB z i
+ƒY z u
+ƒXƒB s i
+ƒX s u
+ƒWƒ‡ j o
+ƒWƒ… j u
+ƒWƒƒ j a
+ƒWƒF j e
+ƒW j i
+ƒVƒ‡ sh o
+ƒVƒ… sh u
+ƒVƒƒ sh a
+ƒVƒF sh e
+ƒVƒB s i
+ƒV sh i
+ƒU z a
+ƒT s a
+ƒS g o
+ƒR k o
+ƒQ g e
+ƒP k e
+ƒO g u
+ƒN k u
+ƒMƒ‡ gy o
+ƒMƒ… gy u
+ƒMƒƒ gy a
+ƒMƒF gy e
+ƒM g i
+ƒLƒ‡ ky o
+ƒLƒ… ky u
+ƒLƒƒ ky a
+ƒLƒF ky e
+ƒL k i
+ƒK g a
+ƒJ k a
+ƒI o
+ƒH o
+ƒG e
+ƒF e
+ƒEƒH w o
+ƒEƒF w e
+ƒEƒB w i
+ƒE u
+ƒD u
+ƒCƒF y e
+ƒC i
+ƒB i
+ƒA a
+ƒ@ a
+
+EXTRA_DIST = japanese.euc_jp.conf japanese.euc_jp.table japanese.shift_jis.conf japanese.shift_jis.table japanese.utf_8.conf japanese.utf_8.table japanese.macron
+
+DISTCLEANFILES = *.log *.out *~
+
+MAINTAINERCLEANFILES = Makefile.in
+
+dicdir = @prefix@/dic
+
+dic_DATA = japanese.euc_jp.conf japanese.euc_jp.table japanese.shift_jis.conf japanese.shift_jis.table japanese.utf_8.conf japanese.utf_8.table japanese.macron
+MACRON="["
+PHONEME_CL="cl"
+VOWEL_REDUCTION="f"
+VOWELS="a,i,u,e,o,N"
+MULTIBYTE_CHAR_RANGE="2,0x81,0xFC"
+MACRON="ãƒ¼"
+PHONEME_CL="cl"
+VOWEL_REDUCTION="â€™"
+VOWELS="a,i,u,e,o,N"
+ã‚¯ã‚¡ k w a
+ã‚¯ã‚£ k w i
+ã‚¯ã‚¥ k w u
+ã‚¯ã‚§ k w e
+ã‚¯ã‚© k w o
+ã‚¯ãƒ® k w a
+ã‚°ã‚¡ g w a
+ã‚°ã‚£ g w i
+ã‚°ã‚¥ g w u
+ã‚°ã‚§ g w e
+ã‚°ã‚© g w o
+ã‚°ãƒ® g w a
+ãã k w a
+ããƒ k w i
+ãã… k w u
+ãã‡ k w e
+ãã‰ k w o
+ãã‚Ž k w a
+ãã g w a
+ããƒ g w i
+ãã… g w u
+ãã‡ g w e
+ãã‰ g w o
+ãã‚Ž g w a
+ã‚”ã‚‡ by o
+ã‚”ã‚… by u
+ã‚”ã‚ƒ by a
+ã‚”ã‰ v o
+ã‚”ã‡ v e
+ã‚”ãƒ v i
+ã‚”ã v a
+ã‚” v u
+ã‚“ N
+ã‚’ o
+ã‚‘ e
+ã‚ i
+ã‚ w a
+ã‚Ž w a
+ã‚ r o
+ã‚Œ r e
+ã‚‹ r u
+ã‚Šã‚‡ ry o
+ã‚Šã‚… ry u
+ã‚Šã‚ƒ ry a
+ã‚Šã‡ ry e
+ã‚Š r i
+ã‚‰ r a
+ã‚ˆ y o
+ã‚‡ y o
+ã‚† y u
+ã‚… y u
+ã‚„ y a
+ã‚ƒ y a
+ã‚‚ m o
+ã‚ m e
+ã‚€ m u
+ã¿ã‚‡ my o
+ã¿ã‚… my u
+ã¿ã‚ƒ my a
+ã¿ã‡ my e
+ã¿ m i
+ã¾ m a
+ã½ p o
+ã¼ b o
+ã» h o
+ãº p e
+ã¹ b e
+ã¸ h e
+ã· p u
+ã¶ b u
+ãµã‰ f o
+ãµã‡ f e
+ãµãƒ f i
+ãµã f a
+ãµ f u
+ã´ã‚‡ py o
+ã´ã‚… py u
+ã´ã‚ƒ py a
+ã´ã‡ py e
+ã´ p i
+ã³ã‚‡ by o
+ã³ã‚… by u
+ã³ã‚ƒ by a
+ã³ã‡ by e
+ã³ b i
+ã²ã‚‡ hy o
+ã²ã‚… hy u
+ã²ã‚ƒ hy a
+ã²ã‡ hy e
+ã² h i
+ã± p a
+ã° b a
+ã¯ h a
+ã® n o
+ã­ n e
+ã¬ n u
+ã«ã‚‡ ny o
+ã«ã‚… ny u
+ã«ã‚ƒ ny a
+ã«ã‡ ny e
+ã« n i
+ãª n a
+ã©ã… d u
+ã© d o
+ã¨ã… t u
+ã¨ t o
+ã§ã‚‡ dy o
+ã§ã‚… dy u
+ã§ã‚ƒ dy a
+ã§ã‡ dy e
+ã§ãƒ d i
+ã§ d e
+ã¦ã‚‡ ty o
+ã¦ã‚… ty u
+ã¦ã‚ƒ ty a
+ã¦ãƒ t i
+ã¦ t e
+ã¥ z u
+ã¤ã‰ ts o
+ã¤ã‡ ts e
+ã¤ãƒ ts i
+ã¤ã ts a
+ã¤ ts u
+ã£ cl
+ã¢ j i
+ã¡ã‚‡ ch o
+ã¡ã‚… ch u
+ã¡ã‚ƒ ch a
+ã¡ã‡ ch e
+ã¡ ch i
+ã  d a
+ãŸ t a
+ãž z o
+ã s o
+ãœ z e
+ã› s e
+ãšãƒ z i
+ãš z u
+ã™ãƒ s i
+ã™ s u
+ã˜ã‚‡ j o
+ã˜ã‚… j u
+ã˜ã‚ƒ j a
+ã˜ã‡ j e
+ã˜ j i
+ã—ã‚‡ sh o
+ã—ã‚… sh u
+ã—ã‚ƒ sh a
+ã—ã‡ sh e
+ã—ãƒ s i
+ã— sh i
+ã– z a
+ã• s a
+ã” g o
+ã“ k o
+ã’ g e
+ã‘ k e
+ã g u
+ã k u
+ãŽã‚‡ gy o
+ãŽã‚… gy u
+ãŽã‚ƒ gy a
+ãŽã‡ gy e
+ãŽ g i
+ãã‚‡ ky o
+ãã‚… ky u
+ãã‚ƒ ky a
+ãã‡ ky e
+ã k i
+ãŒ g a
+ã‹ k a
+ãŠ o
+ã‰ o
+ãˆ e
+ã‡ e
+ã†ã‰ w o
+ã†ã‡ w e
+ã†ãƒ w i
+ã† u
+ã… u
+ã„ã‡ y e
+ã„ i
+ãƒ i
+ã‚ a
+ã a
+ãƒ´ã‚‡ by o
+ãƒ´ã‚… by u
+ãƒ´ã‚ƒ by a
+ãƒ´ã‰ v o
+ãƒ´ã‡ v e
+ãƒ´ãƒ v i
+ãƒ´ã v a
+ãƒ´ãƒ§ by o
+ãƒ´ãƒ¥ by u
+ãƒ´ãƒ£ by a
+ãƒ´ã‚© v o
+ãƒ´ã‚§ v e
+ãƒ´ã‚£ v i
+ãƒ´ã‚¡ v a
+ãƒ´ v u
+ãƒ³ N
+ãƒ² o
+ãƒ± e
+ãƒ° i
+ãƒ¯ w a
+ãƒ® w a
+ãƒ­ r o
+ãƒ¬ r e
+ãƒ« r u
+ãƒªãƒ§ ry o
+ãƒªãƒ¥ ry u
+ãƒªãƒ£ ry a
+ãƒªã‚§ ry e
+ãƒª r i
+ãƒ© r a
+ãƒ¨ y o
+ãƒ§ y o
+ãƒ¦ y u
+ãƒ¥ y u
+ãƒ¤ y a
+ãƒ£ y a
+ãƒ¢ m o
+ãƒ¡ m e
+ãƒ  m u
+ãƒŸãƒ§ my o
+ãƒŸãƒ¥ my u
+ãƒŸãƒ£ my a
+ãƒŸã‚§ my e
+ãƒŸ m i
+ãƒž m a
+ãƒ p o
+ãƒœ b o
+ãƒ› h o
+ãƒš p e
+ãƒ™ b e
+ãƒ˜ h e
+ãƒ— p u
+ãƒ– b u
+ãƒ•ã‚© f o
+ãƒ•ã‚§ f e
+ãƒ•ã‚£ f i
+ãƒ•ã‚¡ f a
+ãƒ• f u
+ãƒ”ãƒ§ py o
+ãƒ”ãƒ¥ py u
+ãƒ”ãƒ£ py a
+ãƒ”ã‚§ py e
+ãƒ” p i
+ãƒ“ãƒ§ by o
+ãƒ“ãƒ¥ by u
+ãƒ“ãƒ£ by a
+ãƒ“ã‚§ by e
+ãƒ“ b i
+ãƒ’ãƒ§ hy o
+ãƒ’ãƒ¥ hy u
+ãƒ’ãƒ£ hy a
+ãƒ’ã‚§ hy e
+ãƒ’ h i
+ãƒ‘ p a
+ãƒ b a
+ãƒ h a
+ãƒŽ n o
+ãƒ n e
+ãƒŒ n u
+ãƒ‹ãƒ§ ny o
+ãƒ‹ãƒ¥ ny u
+ãƒ‹ãƒ£ ny a
+ãƒ‹ã‚§ ny e
+ãƒ‹ n i
+ãƒŠ n a
+ãƒ‰ã‚¥ d u
+ãƒ‰ d o
+ãƒˆã‚¥ t u
+ãƒˆ t o
+ãƒ‡ãƒ§ dy o
+ãƒ‡ãƒ¥ dy u
+ãƒ‡ãƒ£ dy a
+ãƒ‡ã‚§ dy e
+ãƒ‡ã‚£ d i
+ãƒ‡ d e
+ãƒ†ãƒ§ ty o
+ãƒ†ãƒ¥ ty u
+ãƒ†ãƒ£ ty a
+ãƒ†ã‚£ t i
+ãƒ† t e
+ãƒ… z u
+ãƒ„ã‚© ts o
+ãƒ„ã‚§ ts e
+ãƒ„ã‚£ ts i
+ãƒ„ã‚¡ ts a
+ãƒ„ ts u
+ãƒƒ cl
+ãƒ‚ j i
+ãƒãƒ§ ch o
+ãƒãƒ¥ ch u
+ãƒãƒ£ ch a
+ãƒã‚§ ch e
+ãƒ ch i
+ãƒ€ d a
+ã‚¿ t a
+ã‚¾ z o
+ã‚½ s o
+ã‚¼ z e
+ã‚» s e
+ã‚ºã‚£ z i
+ã‚º z u
+ã‚¹ã‚£ s i
+ã‚¹ s u
+ã‚¸ãƒ§ j o
+ã‚¸ãƒ¥ j u
+ã‚¸ãƒ£ j a
+ã‚¸ã‚§ j e
+ã‚¸ j i
+ã‚·ãƒ§ sh o
+ã‚·ãƒ¥ sh u
+ã‚·ãƒ£ sh a
+ã‚·ã‚§ sh e
+ã‚·ã‚£ s i
+ã‚· sh i
+ã‚¶ z a
+ã‚µ s a
+ã‚´ g o
+ã‚³ k o
+ã‚² g e
+ã‚± k e
+ã‚° g u
+ã‚¯ k u
+ã‚®ãƒ§ gy o
+ã‚®ãƒ¥ gy u
+ã‚®ãƒ£ gy a
+ã‚®ã‚§ gy e
+ã‚® g i
+ã‚­ãƒ§ ky o
+ã‚­ãƒ¥ ky u
+ã‚­ãƒ£ ky a
+ã‚­ã‚§ ky e
+ã‚­ k i
+ã‚¬ g a
+ã‚« k a
+ã‚ª o
+ã‚© o
+ã‚¨ e
+ã‚§ e
+ã‚¦ã‚© w o
+ã‚¦ã‚§ w e
+ã‚¦ã‚£ w i
+ã‚¦ u
+ã‚¥ u
+ã‚¤ã‚§ y e
+ã‚¤ i
+ã‚£ i
+ã‚¢ a
+ã‚¡ a
+¥¯¥¡ k w a
+¥¯¥£ k w i
+¥¯¥¥ k w u
+¥¯¥§ k w e
+¥¯¥© k w o
+¥¯¥î k w a
+¥°¥¡ g w a
+¥°¥£ g w i
+¥°¥¥ g w u
+¥°¥§ g w e
+¥°¥© g w o
+¥°¥î g w a
+¤¯¤¡ k w a
+¤¯¤£ k w i
+¤¯¤¥ k w u
+¤¯¤§ k w e
+¤¯¤© k w o
+¤¯¤î k w a
+¤°¤¡ g w a
+¤°¤£ g w i
+¤°¤¥ g w u
+¤°¤§ g w e
+¤°¤© g w o
+¤°¤î g w a
+¤ó N
+¤ò o
+¤ñ e
+¤ð i
+¤ï w a
+¤î w a
+¤í r o
+¤ì r e
+¤ë r u
+¤ê¤ç ry o
+¤ê¤å ry u
+¤ê¤ã ry a
+¤ê¤§ ry e
+¤ê r i
+¤é r a
+¤è y o
+¤ç y o
+¤æ y u
+¤å y u
+¤ä y a
+¤ã y a
+¤â m o
+¤á m e
+¤à m u
+¤ß¤ç my o
+¤ß¤å my u
+¤ß¤ã my a
+¤ß¤§ my e
+¤ß m i
+¤Þ m a
+¤Ý p o
+¤Ü b o
+¤Û h o
+¤Ú p e
+¤Ù b e
+¤Ø h e
+¤× p u
+¤Ö b u
+¤Õ¤© f o
+¤Õ¤§ f e
+¤Õ¤£ f i
+¤Õ¤¡ f a
+¤Õ f u
+¤Ô¤ç py o
+¤Ô¤å py u
+¤Ô¤ã py a
+¤Ô¤§ py e
+¤Ô p i
+¤Ó¤ç by o
+¤Ó¤å by u
+¤Ó¤ã by a
+¤Ó¤§ by e
+¤Ó b i
+¤Ò¤ç hy o
+¤Ò¤å hy u
+¤Ò¤ã hy a
+¤Ò¤§ hy e
+¤Ò h i
+¤Ñ p a
+¤Ð b a
+¤Ï h a
+¤Î n o
+¤Í n e
+¤Ì n u
+¤Ë¤ç ny o
+¤Ë¤å ny u
+¤Ë¤ã ny a
+¤Ë¤§ ny e
+¤Ë n i
+¤Ê n a
+¤É¤¥ d u
+¤É d o
+¤È¤¥ t u
+¤È t o
+¤Ç¤ç dy o
+¤Ç¤å dy u
+¤Ç¤ã dy a
+¤Ç¤§ dy e
+¤Ç¤£ d i
+¤Ç d e
+¤Æ¤ç ty o
+¤Æ¤å ty u
+¤Æ¤ã ty a
+¤Æ¤£ t i
+¤Æ t e
+¤Å z u
+¤Ä¤© ts o
+¤Ä¤§ ts e
+¤Ä¤£ ts i
+¤Ä¤¡ ts a
+¤Ä ts u
+¤Ã cl
+¤Â j i
+¤Á¤ç ch o
+¤Á¤å ch u
+¤Á¤ã ch a
+¤Á¤§ ch e
+¤Á ch i
+¤À d a
+¤¿ t a
+¤¾ z o
+¤½ s o
+¤¼ z e
+¤» s e
+¤º¤£ z i
+¤º z u
+¤¹¤£ s i
+¤¹ s u
+¤¸¤ç j o
+¤¸¤å j u
+¤¸¤ã j a
+¤¸¤§ j e
+¤¸ j i
+¤·¤ç sh o
+¤·¤å sh u
+¤·¤ã sh a
+¤·¤§ sh e
+¤·¤£ s i
+¤· sh i
+¤¶ z a
+¤µ s a
+¤´ g o
+¤³ k o
+¤² g e
+¤± k e
+¤° g u
+¤¯ k u
+¤®¤ç gy o
+¤®¤å gy u
+¤®¤ã gy a
+¤®¤§ gy e
+¤® g i
+¤­¤ç ky o
+¤­¤å ky u
+¤­¤ã ky a
+¤­¤§ ky e
+¤­ k i
+¤¬ g a
+¤« k a
+¤ª o
+¤© o
+¤¨ e
+¤§ e
+¤¦¤© w o
+¤¦¤§ w e
+¤¦¤£ w i
+¤¦ u
+¤¥ u
+¤¤¤§ y e
+¤¤ i
+¤£ i
+¤¢ a
+¤¡ a
+¥ô¤ç by o
+¥ô¤å by u
+¥ô¤ã by a
+¥ô¤© v o
+¥ô¤§ v e
+¥ô¤£ v i
+¥ô¤¡ v a
+¥ô¥ç by o
+¥ô¥å by u
+¥ô¥ã by a
+¥ô¥© v o
+¥ô¥§ v e
+¥ô¥£ v i
+¥ô¥¡ v a
+¥ô v u
+¥ó N
+¥ò o
+¥ñ e
+¥ð i
+¥ï w a
+¥î w a
+¥í r o
+¥ì r e
+¥ë r u
+¥ê¥ç ry o
+¥ê¥å ry u
+¥ê¥ã ry a
+¥ê¥§ ry e
+¥ê r i
+¥é r a
+¥è y o
+¥ç y o
+¥æ y u
+¥å y u
+¥ä y a
+¥ã y a
+¥â m o
+¥á m e
+¥à m u
+¥ß¥ç my o
+¥ß¥å my u
+¥ß¥ã my a
+¥ß¥§ my e
+¥ß m i
+¥Þ m a
+¥Ý p o
+¥Ü b o
+¥Û h o
+¥Ú p e
+¥Ù b e
+¥Ø h e
+¥× p u
+¥Ö b u
+¥Õ¥© f o
+¥Õ¥§ f e
+¥Õ¥£ f i
+¥Õ¥¡ f a
+¥Õ f u
+¥Ô¥ç py o
+¥Ô¥å py u
+¥Ô¥ã py a
+¥Ô¥§ py e
+¥Ô p i
+¥Ó¥ç by o
+¥Ó¥å by u
+¥Ó¥ã by a
+¥Ó¥§ by e
+¥Ó b i
+¥Ò¥ç hy o
+¥Ò¥å hy u
+¥Ò¥ã hy a
+¥Ò¥§ hy e
+¥Ò h i
+¥Ñ p a
+¥Ð b a
+¥Ï h a
+¥Î n o
+¥Í n e
+¥Ì n u
+¥Ë¥ç ny o
+¥Ë¥å ny u
+¥Ë¥ã ny a
+¥Ë¥§ ny e
+¥Ë n i
+¥Ê n a
+¥É¥¥ d u
+¥É d o
+¥È¥¥ t u
+¥È t o
+¥Ç¥ç dy o
+¥Ç¥å dy u
+¥Ç¥ã dy a
+¥Ç¥§ dy e
+¥Ç¥£ d i
+¥Ç d e
+¥Æ¥ç ty o
+¥Æ¥å ty u
+¥Æ¥ã ty a
+¥Æ¥£ t i
+¥Æ t e
+¥Å z u
+¥Ä¥© ts o
+¥Ä¥§ ts e
+¥Ä¥£ ts i
+¥Ä¥¡ ts a
+¥Ä ts u
+¥Ã cl
+¥Â j i
+¥Á¥ç ch o
+¥Á¥å ch u
+¥Á¥ã ch a
+¥Á¥§ ch e
+¥Á ch i
+¥À d a
+¥¿ t a
+¥¾ z o
+¥½ s o
+¥¼ z e
+¥» s e
+¥º¥£ z i
+¥º z u
+¥¹¥£ s i
+¥¹ s u
+¥¸¥ç j o
+¥¸¥å j u
+¥¸¥ã j a
+¥¸¥§ j e
+¥¸ j i
+¥·¥ç sh o
+¥·¥å sh u
+¥·¥ã sh a
+¥·¥§ sh e
+¥·¥£ s i
+¥· sh i
+¥¶ z a
+¥µ s a
+¥´ g o
+¥³ k o
+¥² g e
+¥± k e
+¥° g u
+¥¯ k u
+¥®¥ç gy o
+¥®¥å gy u
+¥®¥ã gy a
+¥®¥§ gy e
+¥® g i
+¥­¥ç ky o
+¥­¥å ky u
+¥­¥ã ky a
+¥­¥§ ky e
+¥­ k i
+¥¬ g a
+¥« k a
+¥ª o
+¥© o
+¥¨ e
+¥§ e
+¥¦¥© w o
+¥¦¥§ w e
+¥¦¥£ w i
+¥¦ u
+¥¥ u
+¥¤¥§ y e
+¥¤ i
+¥£ i
+¥¢ a
+¥¡ a
+# Makefile.in generated by automake 1.15 from Makefile.am.
+# @configure_input@
+
+# Copyright (C) 1994-2014 Free Software Foundation, Inc.
+
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+@SET_MAKE@
+
+VPATH = @srcdir@
+am__is_gnu_make = { \
+  if test -z '$(MAKELEVEL)'; then \
+    false; \
+  elif test -n '$(MAKE_HOST)'; then \
+    true; \
+  elif test -n '$(MAKE_VERSION)' && test -n '$(CURDIR)'; then \
+    true; \
+  else \
+    false; \
+  fi; \
+}
+am__make_running_with_option = \
+  case $${target_option-} in \
+      ?) ;; \
+      *) echo "am__make_running_with_option: internal error: invalid" \
+              "target option '$${target_option-}' specified" >&2; \
+         exit 1;; \
+  esac; \
+  has_opt=no; \
+  sane_makeflags=$$MAKEFLAGS; \
+  if $(am__is_gnu_make); then \
+    sane_makeflags=$$MFLAGS; \
+  else \
+    case $$MAKEFLAGS in \
+      *\\[\ \	]*) \
+        bs=\\; \
+        sane_makeflags=`printf '%s\n' "$$MAKEFLAGS" \
+          | sed "s/$$bs$$bs[$$bs $$bs	]*//g"`;; \
+    esac; \
+  fi; \
+  skip_next=no; \
+  strip_trailopt () \
+  { \
+    flg=`printf '%s\n' "$$flg" | sed "s/$$1.*$$//"`; \
+  }; \
+  for flg in $$sane_makeflags; do \
+    test $$skip_next = yes && { skip_next=no; continue; }; \
+    case $$flg in \
+      *=*|--*) continue;; \
+        -*I) strip_trailopt 'I'; skip_next=yes;; \
+      -*I?*) strip_trailopt 'I';; \
+        -*O) strip_trailopt 'O'; skip_next=yes;; \
+      -*O?*) strip_trailopt 'O';; \
+        -*l) strip_trailopt 'l'; skip_next=yes;; \
+      -*l?*) strip_trailopt 'l';; \
+      -[dEDm]) skip_next=yes;; \
+      -[JT]) skip_next=yes;; \
+    esac; \
+    case $$flg in \
+      *$$target_option*) has_opt=yes; break;; \
+    esac; \
+  done; \
+  test $$has_opt = yes
+am__make_dryrun = (target_option=n; $(am__make_running_with_option))
+am__make_keepgoing = (target_option=k; $(am__make_running_with_option))
+pkgdatadir = $(datadir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkglibexecdir = $(libexecdir)/@PACKAGE@
+am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
+install_sh_DATA = $(install_sh) -c -m 644
+install_sh_PROGRAM = $(install_sh) -c
+install_sh_SCRIPT = $(install_sh) -c
+INSTALL_HEADER = $(INSTALL_DATA)
+transform = $(program_transform_name)
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+build_triplet = @build@
+host_triplet = @host@
+subdir = dic
+ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
+am__aclocal_m4_deps = $(top_srcdir)/configure.ac
+am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
+	$(ACLOCAL_M4)
+DIST_COMMON = $(srcdir)/Makefile.am $(am__DIST_COMMON)
+mkinstalldirs = $(install_sh) -d
+CONFIG_CLEAN_FILES =
+CONFIG_CLEAN_VPATH_FILES =
+AM_V_P = $(am__v_P_@AM_V@)
+am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
+am__v_P_0 = false
+am__v_P_1 = :
+AM_V_GEN = $(am__v_GEN_@AM_V@)
+am__v_GEN_ = $(am__v_GEN_@AM_DEFAULT_V@)
+am__v_GEN_0 = @echo "  GEN     " $@;
+am__v_GEN_1 = 
+AM_V_at = $(am__v_at_@AM_V@)
+am__v_at_ = $(am__v_at_@AM_DEFAULT_V@)
+am__v_at_0 = @
+am__v_at_1 = 
+SOURCES =
+DIST_SOURCES =
+am__can_run_installinfo = \
+  case $$AM_UPDATE_INFO_DIR in \
+    n|no|NO) false;; \
+    *) (install-info --version) >/dev/null 2>&1;; \
+  esac
+am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;
+am__vpath_adj = case $$p in \
+    $(srcdir)/*) f=`echo "$$p" | sed "s|^$$srcdirstrip/||"`;; \
+    *) f=$$p;; \
+  esac;
+am__strip_dir = f=`echo $$p | sed -e 's|^.*/||'`;
+am__install_max = 40
+am__nobase_strip_setup = \
+  srcdirstrip=`echo "$(srcdir)" | sed 's/[].[^$$\\*|]/\\\\&/g'`
+am__nobase_strip = \
+  for p in $$list; do echo "$$p"; done | sed -e "s|$$srcdirstrip/||"
+am__nobase_list = $(am__nobase_strip_setup); \
+  for p in $$list; do echo "$$p $$p"; done | \
+  sed "s| $$srcdirstrip/| |;"' / .*\//!s/ .*/ ./; s,\( .*\)/[^/]*$$,\1,' | \
+  $(AWK) 'BEGIN { files["."] = "" } { files[$$2] = files[$$2] " " $$1; \
+    if (++n[$$2] == $(am__install_max)) \
+      { print $$2, files[$$2]; n[$$2] = 0; files[$$2] = "" } } \
+    END { for (dir in files) print dir, files[dir] }'
+am__base_list = \
+  sed '$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;s/\n/ /g' | \
+  sed '$$!N;$$!N;$$!N;$$!N;s/\n/ /g'
+am__uninstall_files_from_dir = { \
+  test -z "$$files" \
+    || { test ! -d "$$dir" && test ! -f "$$dir" && test ! -r "$$dir"; } \
+    || { echo " ( cd '$$dir' && rm -f" $$files ")"; \
+         $(am__cd) "$$dir" && rm -f $$files; }; \
+  }
+am__installdirs = "$(DESTDIR)$(dicdir)"
+DATA = $(dic_DATA)
+am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
+am__DIST_COMMON = $(srcdir)/Makefile.in
+DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
+ACLOCAL = @ACLOCAL@
+AMTAR = @AMTAR@
+AM_DEFAULT_VERBOSITY = @AM_DEFAULT_VERBOSITY@
+AR = @AR@
+AUTOCONF = @AUTOCONF@
+AUTOHEADER = @AUTOHEADER@
+AUTOMAKE = @AUTOMAKE@
+AWK = @AWK@
+CC = @CC@
+CCDEPMODE = @CCDEPMODE@
+CFLAGS = @CFLAGS@
+CPP = @CPP@
+CPPFLAGS = @CPPFLAGS@
+CXX = @CXX@
+CXXDEPMODE = @CXXDEPMODE@
+CXXFLAGS = @CXXFLAGS@
+CYGPATH_W = @CYGPATH_W@
+DEFS = @DEFS@
+DEPDIR = @DEPDIR@
+ECHO_C = @ECHO_C@
+ECHO_N = @ECHO_N@
+ECHO_T = @ECHO_T@
+EGREP = @EGREP@
+EXEEXT = @EXEEXT@
+GREP = @GREP@
+HTS_ENGINE_HEADER = @HTS_ENGINE_HEADER@
+HTS_ENGINE_HEADER_DIR = @HTS_ENGINE_HEADER_DIR@
+HTS_ENGINE_LIBRARY = @HTS_ENGINE_LIBRARY@
+HTS_ENGINE_LIBRARY_DIR = @HTS_ENGINE_LIBRARY_DIR@
+INSTALL = @INSTALL@
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+INSTALL_STRIP_PROGRAM = @INSTALL_STRIP_PROGRAM@
+LDFLAGS = @LDFLAGS@
+LIBOBJS = @LIBOBJS@
+LIBS = @LIBS@
+LTLIBOBJS = @LTLIBOBJS@
+MAKEINFO = @MAKEINFO@
+MKDIR_P = @MKDIR_P@
+OBJEXT = @OBJEXT@
+PACKAGE = @PACKAGE@
+PACKAGE_BUGREPORT = @PACKAGE_BUGREPORT@
+PACKAGE_NAME = @PACKAGE_NAME@
+PACKAGE_STRING = @PACKAGE_STRING@
+PACKAGE_TARNAME = @PACKAGE_TARNAME@
+PACKAGE_URL = @PACKAGE_URL@
+PACKAGE_VERSION = @PACKAGE_VERSION@
+PATH_SEPARATOR = @PATH_SEPARATOR@
+RANLIB = @RANLIB@
+SET_MAKE = @SET_MAKE@
+SHELL = @SHELL@
+STRIP = @STRIP@
+VERSION = @VERSION@
+abs_builddir = @abs_builddir@
+abs_srcdir = @abs_srcdir@
+abs_top_builddir = @abs_top_builddir@
+abs_top_srcdir = @abs_top_srcdir@
+ac_ct_CC = @ac_ct_CC@
+ac_ct_CXX = @ac_ct_CXX@
+am__include = @am__include@
+am__leading_dot = @am__leading_dot@
+am__quote = @am__quote@
+am__tar = @am__tar@
+am__untar = @am__untar@
+bindir = @bindir@
+build = @build@
+build_alias = @build_alias@
+build_cpu = @build_cpu@
+build_os = @build_os@
+build_vendor = @build_vendor@
+builddir = @builddir@
+datadir = @datadir@
+datarootdir = @datarootdir@
+docdir = @docdir@
+dvidir = @dvidir@
+exec_prefix = @exec_prefix@
+host = @host@
+host_alias = @host_alias@
+host_cpu = @host_cpu@
+host_os = @host_os@
+host_vendor = @host_vendor@
+htmldir = @htmldir@
+includedir = @includedir@
+infodir = @infodir@
+install_sh = @install_sh@
+libdir = @libdir@
+libexecdir = @libexecdir@
+localedir = @localedir@
+localstatedir = @localstatedir@
+mandir = @mandir@
+mkdir_p = @mkdir_p@
+oldincludedir = @oldincludedir@
+pdfdir = @pdfdir@
+prefix = @prefix@
+program_transform_name = @program_transform_name@
+psdir = @psdir@
+sbindir = @sbindir@
+sharedstatedir = @sharedstatedir@
+srcdir = @srcdir@
+sysconfdir = @sysconfdir@
+target_alias = @target_alias@
+top_build_prefix = @top_build_prefix@
+top_builddir = @top_builddir@
+top_srcdir = @top_srcdir@
+EXTRA_DIST = japanese.euc_jp.conf japanese.euc_jp.table japanese.shift_jis.conf japanese.shift_jis.table japanese.utf_8.conf japanese.utf_8.table japanese.macron
+DISTCLEANFILES = *.log *.out *~
+MAINTAINERCLEANFILES = Makefile.in
+dicdir = @prefix@/dic
+dic_DATA = japanese.euc_jp.conf japanese.euc_jp.table japanese.shift_jis.conf japanese.shift_jis.table japanese.utf_8.conf japanese.utf_8.table japanese.macron
+all: all-am
+
+.SUFFIXES:
+$(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__configure_deps)
+	@for dep in $?; do \
+	  case '$(am__configure_deps)' in \
+	    *$$dep*) \
+	      ( cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh ) \
+	        && { if test -f $@; then exit 0; else break; fi; }; \
+	      exit 1;; \
+	  esac; \
+	done; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --gnu dic/Makefile'; \
+	$(am__cd) $(top_srcdir) && \
+	  $(AUTOMAKE) --gnu dic/Makefile
+Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
+	@case '$?' in \
+	  *config.status*) \
+	    cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh;; \
+	  *) \
+	    echo ' cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe)'; \
+	    cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe);; \
+	esac;
+
+$(top_builddir)/config.status: $(top_srcdir)/configure $(CONFIG_STATUS_DEPENDENCIES)
+	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+
+$(top_srcdir)/configure:  $(am__configure_deps)
+	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+$(ACLOCAL_M4):  $(am__aclocal_m4_deps)
+	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+$(am__aclocal_m4_deps):
+install-dicDATA: $(dic_DATA)
+	@$(NORMAL_INSTALL)
+	@list='$(dic_DATA)'; test -n "$(dicdir)" || list=; \
+	if test -n "$$list"; then \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(dicdir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(dicdir)" || exit 1; \
+	fi; \
+	for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  echo "$$d$$p"; \
+	done | $(am__base_list) | \
+	while read files; do \
+	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(dicdir)'"; \
+	  $(INSTALL_DATA) $$files "$(DESTDIR)$(dicdir)" || exit $$?; \
+	done
+
+uninstall-dicDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(dic_DATA)'; test -n "$(dicdir)" || list=; \
+	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
+	dir='$(DESTDIR)$(dicdir)'; $(am__uninstall_files_from_dir)
+tags TAGS:
+
+ctags CTAGS:
+
+cscope cscopelist:
+
+
+distdir: $(DISTFILES)
+	@srcdirstrip=`echo "$(srcdir)" | sed 's/[].[^$$\\*]/\\\\&/g'`; \
+	topsrcdirstrip=`echo "$(top_srcdir)" | sed 's/[].[^$$\\*]/\\\\&/g'`; \
+	list='$(DISTFILES)'; \
+	  dist_files=`for file in $$list; do echo $$file; done | \
+	  sed -e "s|^$$srcdirstrip/||;t" \
+	      -e "s|^$$topsrcdirstrip/|$(top_builddir)/|;t"`; \
+	case $$dist_files in \
+	  */*) $(MKDIR_P) `echo "$$dist_files" | \
+			   sed '/\//!d;s|^|$(distdir)/|;s,/[^/]*$$,,' | \
+			   sort -u` ;; \
+	esac; \
+	for file in $$dist_files; do \
+	  if test -f $$file || test -d $$file; then d=.; else d=$(srcdir); fi; \
+	  if test -d $$d/$$file; then \
+	    dir=`echo "/$$file" | sed -e 's,/[^/]*$$,,'`; \
+	    if test -d "$(distdir)/$$file"; then \
+	      find "$(distdir)/$$file" -type d ! -perm -700 -exec chmod u+rwx {} \;; \
+	    fi; \
+	    if test -d $(srcdir)/$$file && test $$d != $(srcdir); then \
+	      cp -fpR $(srcdir)/$$file "$(distdir)$$dir" || exit 1; \
+	      find "$(distdir)/$$file" -type d ! -perm -700 -exec chmod u+rwx {} \;; \
+	    fi; \
+	    cp -fpR $$d/$$file "$(distdir)$$dir" || exit 1; \
+	  else \
+	    test -f "$(distdir)/$$file" \
+	    || cp -p $$d/$$file "$(distdir)/$$file" \
+	    || exit 1; \
+	  fi; \
+	done
+check-am: all-am
+check: check-am
+all-am: Makefile $(DATA)
+installdirs:
+	for dir in "$(DESTDIR)$(dicdir)"; do \
+	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
+	done
+install: install-am
+install-exec: install-exec-am
+install-data: install-data-am
+uninstall: uninstall-am
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+
+installcheck: installcheck-am
+install-strip:
+	if test -z '$(STRIP)'; then \
+	  $(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM="$(INSTALL_STRIP_PROGRAM)" \
+	    install_sh_PROGRAM="$(INSTALL_STRIP_PROGRAM)" INSTALL_STRIP_FLAG=-s \
+	      install; \
+	else \
+	  $(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM="$(INSTALL_STRIP_PROGRAM)" \
+	    install_sh_PROGRAM="$(INSTALL_STRIP_PROGRAM)" INSTALL_STRIP_FLAG=-s \
+	    "INSTALL_PROGRAM_ENV=STRIPPROG='$(STRIP)'" install; \
+	fi
+mostlyclean-generic:
+
+clean-generic:
+
+distclean-generic:
+	-test -z "$(CONFIG_CLEAN_FILES)" || rm -f $(CONFIG_CLEAN_FILES)
+	-test . = "$(srcdir)" || test -z "$(CONFIG_CLEAN_VPATH_FILES)" || rm -f $(CONFIG_CLEAN_VPATH_FILES)
+	-test -z "$(DISTCLEANFILES)" || rm -f $(DISTCLEANFILES)
+
+maintainer-clean-generic:
+	@echo "This command is intended for maintainers to use"
+	@echo "it deletes files that may require special tools to rebuild."
+	-test -z "$(MAINTAINERCLEANFILES)" || rm -f $(MAINTAINERCLEANFILES)
+clean: clean-am
+
+clean-am: clean-generic mostlyclean-am
+
+distclean: distclean-am
+	-rm -f Makefile
+distclean-am: clean-am distclean-generic
+
+dvi: dvi-am
+
+dvi-am:
+
+html: html-am
+
+html-am:
+
+info: info-am
+
+info-am:
+
+install-data-am: install-dicDATA
+
+install-dvi: install-dvi-am
+
+install-dvi-am:
+
+install-exec-am:
+
+install-html: install-html-am
+
+install-html-am:
+
+install-info: install-info-am
+
+install-info-am:
+
+install-man:
+
+install-pdf: install-pdf-am
+
+install-pdf-am:
+
+install-ps: install-ps-am
+
+install-ps-am:
+
+installcheck-am:
+
+maintainer-clean: maintainer-clean-am
+	-rm -f Makefile
+maintainer-clean-am: distclean-am maintainer-clean-generic
+
+mostlyclean: mostlyclean-am
+
+mostlyclean-am: mostlyclean-generic
+
+pdf: pdf-am
+
+pdf-am:
+
+ps: ps-am
+
+ps-am:
+
+uninstall-am: uninstall-dicDATA
+
+.MAKE: install-am install-strip
+
+.PHONY: all all-am check check-am clean clean-generic cscopelist-am \
+	ctags-am distclean distclean-generic distdir dvi dvi-am html \
+	html-am info info-am install install-am install-data \
+	install-data-am install-dicDATA install-dvi install-dvi-am \
+	install-exec install-exec-am install-html install-html-am \
+	install-info install-info-am install-man install-pdf \
+	install-pdf-am install-ps install-ps-am install-strip \
+	installcheck installcheck-am installdirs maintainer-clean \
+	maintainer-clean-generic mostlyclean mostlyclean-generic pdf \
+	pdf-am ps ps-am tags-am uninstall uninstall-am \
+	uninstall-dicDATA
+
+.PRECIOUS: Makefile
+
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:
+# Makefile.in generated by automake 1.15 from Makefile.am.
+# dic/Makefile.  Generated from Makefile.in by configure.
+
+# Copyright (C) 1994-2014 Free Software Foundation, Inc.
+
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+
+
+
+am__is_gnu_make = { \
+  if test -z '$(MAKELEVEL)'; then \
+    false; \
+  elif test -n '$(MAKE_HOST)'; then \
+    true; \
+  elif test -n '$(MAKE_VERSION)' && test -n '$(CURDIR)'; then \
+    true; \
+  else \
+    false; \
+  fi; \
+}
+am__make_running_with_option = \
+  case $${target_option-} in \
+      ?) ;; \
+      *) echo "am__make_running_with_option: internal error: invalid" \
+              "target option '$${target_option-}' specified" >&2; \
+         exit 1;; \
+  esac; \
+  has_opt=no; \
+  sane_makeflags=$$MAKEFLAGS; \
+  if $(am__is_gnu_make); then \
+    sane_makeflags=$$MFLAGS; \
+  else \
+    case $$MAKEFLAGS in \
+      *\\[\ \	]*) \
+        bs=\\; \
+        sane_makeflags=`printf '%s\n' "$$MAKEFLAGS" \
+          | sed "s/$$bs$$bs[$$bs $$bs	]*//g"`;; \
+    esac; \
+  fi; \
+  skip_next=no; \
+  strip_trailopt () \
+  { \
+    flg=`printf '%s\n' "$$flg" | sed "s/$$1.*$$//"`; \
+  }; \
+  for flg in $$sane_makeflags; do \
+    test $$skip_next = yes && { skip_next=no; continue; }; \
+    case $$flg in \
+      *=*|--*) continue;; \
+        -*I) strip_trailopt 'I'; skip_next=yes;; \
+      -*I?*) strip_trailopt 'I';; \
+        -*O) strip_trailopt 'O'; skip_next=yes;; \
+      -*O?*) strip_trailopt 'O';; \
+        -*l) strip_trailopt 'l'; skip_next=yes;; \
+      -*l?*) strip_trailopt 'l';; \
+      -[dEDm]) skip_next=yes;; \
+      -[JT]) skip_next=yes;; \
+    esac; \
+    case $$flg in \
+      *$$target_option*) has_opt=yes; break;; \
+    esac; \
+  done; \
+  test $$has_opt = yes
+am__make_dryrun = (target_option=n; $(am__make_running_with_option))
+am__make_keepgoing = (target_option=k; $(am__make_running_with_option))
+pkgdatadir = $(datadir)/sinsy
+pkgincludedir = $(includedir)/sinsy
+pkglibdir = $(libdir)/sinsy
+pkglibexecdir = $(libexecdir)/sinsy
+am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
+install_sh_DATA = $(install_sh) -c -m 644
+install_sh_PROGRAM = $(install_sh) -c
+install_sh_SCRIPT = $(install_sh) -c
+INSTALL_HEADER = $(INSTALL_DATA)
+transform = $(program_transform_name)
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+build_triplet = x86_64-unknown-linux-gnu
+host_triplet = x86_64-unknown-linux-gnu
+subdir = dic
+ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
+am__aclocal_m4_deps = $(top_srcdir)/configure.ac
+am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
+	$(ACLOCAL_M4)
+DIST_COMMON = $(srcdir)/Makefile.am $(am__DIST_COMMON)
+mkinstalldirs = $(install_sh) -d
+CONFIG_CLEAN_FILES =
+CONFIG_CLEAN_VPATH_FILES =
+AM_V_P = $(am__v_P_$(V))
+am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))
+am__v_P_0 = false
+am__v_P_1 = :
+AM_V_GEN = $(am__v_GEN_$(V))
+am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))
+am__v_GEN_0 = @echo "  GEN     " $@;
+am__v_GEN_1 = 
+AM_V_at = $(am__v_at_$(V))
+am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))
+am__v_at_0 = @
+am__v_at_1 = 
+SOURCES =
+DIST_SOURCES =
+am__can_run_installinfo = \
+  case $$AM_UPDATE_INFO_DIR in \
+    n|no|NO) false;; \
+    *) (install-info --version) >/dev/null 2>&1;; \
+  esac
+am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;
+am__vpath_adj = case $$p in \
+    $(srcdir)/*) f=`echo "$$p" | sed "s|^$$srcdirstrip/||"`;; \
+    *) f=$$p;; \
+  esac;
+am__strip_dir = f=`echo $$p | sed -e 's|^.*/||'`;
+am__install_max = 40
+am__nobase_strip_setup = \
+  srcdirstrip=`echo "$(srcdir)" | sed 's/[].[^$$\\*|]/\\\\&/g'`
+am__nobase_strip = \
+  for p in $$list; do echo "$$p"; done | sed -e "s|$$srcdirstrip/||"
+am__nobase_list = $(am__nobase_strip_setup); \
+  for p in $$list; do echo "$$p $$p"; done | \
+  sed "s| $$srcdirstrip/| |;"' / .*\//!s/ .*/ ./; s,\( .*\)/[^/]*$$,\1,' | \
+  $(AWK) 'BEGIN { files["."] = "" } { files[$$2] = files[$$2] " " $$1; \
+    if (++n[$$2] == $(am__install_max)) \
+      { print $$2, files[$$2]; n[$$2] = 0; files[$$2] = "" } } \
+    END { for (dir in files) print dir, files[dir] }'
+am__base_list = \
+  sed '$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;s/\n/ /g' | \
+  sed '$$!N;$$!N;$$!N;$$!N;s/\n/ /g'
+am__uninstall_files_from_dir = { \
+  test -z "$$files" \
+    || { test ! -d "$$dir" && test ! -f "$$dir" && test ! -r "$$dir"; } \
+    || { echo " ( cd '$$dir' && rm -f" $$files ")"; \
+         $(am__cd) "$$dir" && rm -f $$files; }; \
+  }
+am__installdirs = "$(DESTDIR)$(dicdir)"
+DATA = $(dic_DATA)
+am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
+am__DIST_COMMON = $(srcdir)/Makefile.in
+DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
+ACLOCAL = ${SHELL} /home/oov/gopath/src/bitbucket.org/oov/sinsy-0.92/config/missing aclocal-1.15
+AMTAR = $${TAR-tar}
+AM_DEFAULT_VERBOSITY = 1
+AR = /home/oov/emsdk_portable/emscripten/master/emar
+AUTOCONF = ${SHELL} /home/oov/gopath/src/bitbucket.org/oov/sinsy-0.92/config/missing autoconf
+AUTOHEADER = ${SHELL} /home/oov/gopath/src/bitbucket.org/oov/sinsy-0.92/config/missing autoheader
+AUTOMAKE = ${SHELL} /home/oov/gopath/src/bitbucket.org/oov/sinsy-0.92/config/missing automake-1.15
+AWK = gawk
+CC = /home/oov/emsdk_portable/emscripten/master/emcc
+CCDEPMODE = depmode=gcc3
+CFLAGS = 
+CPP = /home/oov/emsdk_portable/emscripten/master/emcc -E
+CPPFLAGS = 
+CXX = /home/oov/emsdk_portable/emscripten/master/em++
+CXXDEPMODE = depmode=gcc3
+CXXFLAGS = -g -O2
+CYGPATH_W = echo
+DEFS = -DPACKAGE_NAME=\"sinsy\" -DPACKAGE_TARNAME=\"sinsy\" -DPACKAGE_VERSION=\"0.92\" -DPACKAGE_STRING=\"sinsy\ 0.92\" -DPACKAGE_BUGREPORT=\"http://sinsy.sourceforge.net/\" -DPACKAGE_URL=\"\" -DPACKAGE=\"sinsy\" -DVERSION=\"0.92\" -DHAVE_LIBM=1 -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DSIZEOF_CHAR=1 -DSIZEOF_UNSIGNED_CHAR=1 -DSIZEOF_SHORT=2 -DSIZEOF_UNSIGNED_SHORT=2 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHAVE_VPRINTF=1 -DHAVE_SQRT=1 -DHAVE_STRCHR=1 -DHAVE_STRRCHR=1 -DHAVE_STRSTR=1
+DEPDIR = .deps
+ECHO_C = 
+ECHO_N = -n
+ECHO_T = 
+EGREP = /bin/grep -E
+EXEEXT = 
+GREP = /bin/grep
+HTS_ENGINE_HEADER = /usr/local/include/HTS_engine.h
+HTS_ENGINE_HEADER_DIR = /usr/local/include
+HTS_ENGINE_LIBRARY = /usr/local/lib/libHTSEngine.a
+HTS_ENGINE_LIBRARY_DIR = /usr/local/lib
+INSTALL = /usr/bin/install -c
+INSTALL_DATA = ${INSTALL} -m 644
+INSTALL_PROGRAM = ${INSTALL}
+INSTALL_SCRIPT = ${INSTALL}
+INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
+LDFLAGS = 
+LIBOBJS = 
+LIBS = -lm 
+LTLIBOBJS = 
+MAKEINFO = ${SHELL} /home/oov/gopath/src/bitbucket.org/oov/sinsy-0.92/config/missing makeinfo
+MKDIR_P = /bin/mkdir -p
+OBJEXT = o
+PACKAGE = sinsy
+PACKAGE_BUGREPORT = http://sinsy.sourceforge.net/
+PACKAGE_NAME = sinsy
+PACKAGE_STRING = sinsy 0.92
+PACKAGE_TARNAME = sinsy
+PACKAGE_URL = 
+PACKAGE_VERSION = 0.92
+PATH_SEPARATOR = :
+RANLIB = /home/oov/emsdk_portable/emscripten/master/emranlib
+SET_MAKE = 
+SHELL = /bin/bash
+STRIP = 
+VERSION = 0.92
+abs_builddir = /home/oov/gopath/src/bitbucket.org/oov/sinsy-0.92/dic
+abs_srcdir = /home/oov/gopath/src/bitbucket.org/oov/sinsy-0.92/dic
+abs_top_builddir = /home/oov/gopath/src/bitbucket.org/oov/sinsy-0.92
+abs_top_srcdir = /home/oov/gopath/src/bitbucket.org/oov/sinsy-0.92
+ac_ct_CC = /home/oov/emsdk_portable/emscripten/master/emcc
+ac_ct_CXX = 
+am__include = include
+am__leading_dot = .
+am__quote = 
+am__tar = $${TAR-tar} chof - "$$tardir"
+am__untar = $${TAR-tar} xf -
+bindir = ${exec_prefix}/bin
+build = x86_64-unknown-linux-gnu
+build_alias = 
+build_cpu = x86_64
+build_os = linux-gnu
+build_vendor = unknown
+builddir = .
+datadir = ${datarootdir}
+datarootdir = ${prefix}/share
+docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
+dvidir = ${docdir}
+exec_prefix = ${prefix}
+host = x86_64-unknown-linux-gnu
+host_alias = 
+host_cpu = x86_64
+host_os = linux-gnu
+host_vendor = unknown
+htmldir = ${docdir}
+includedir = ${prefix}/include
+infodir = ${datarootdir}/info
+install_sh = ${SHELL} /home/oov/gopath/src/bitbucket.org/oov/sinsy-0.92/config/install-sh
+libdir = ${exec_prefix}/lib
+libexecdir = ${exec_prefix}/libexec
+localedir = ${datarootdir}/locale
+localstatedir = ${prefix}/var
+mandir = ${datarootdir}/man
+mkdir_p = $(MKDIR_P)
+oldincludedir = /usr/include
+pdfdir = ${docdir}
+prefix = /usr/local
+program_transform_name = s,x,x,
+psdir = ${docdir}
+sbindir = ${exec_prefix}/sbin
+sharedstatedir = ${prefix}/com
+srcdir = .
+sysconfdir = ${prefix}/etc
+target_alias = 
+top_build_prefix = ../
+top_builddir = ..
+top_srcdir = ..
+EXTRA_DIST = japanese.euc_jp.conf japanese.euc_jp.table japanese.shift_jis.conf japanese.shift_jis.table japanese.utf_8.conf japanese.utf_8.table japanese.macron
+DISTCLEANFILES = *.log *.out *~
+MAINTAINERCLEANFILES = Makefile.in
+dicdir = /usr/local/dic
+dic_DATA = japanese.euc_jp.conf japanese.euc_jp.table japanese.shift_jis.conf japanese.shift_jis.table japanese.utf_8.conf japanese.utf_8.table japanese.macron
+all: all-am
+
+.SUFFIXES:
+$(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__configure_deps)
+	@for dep in $?; do \
+	  case '$(am__configure_deps)' in \
+	    *$$dep*) \
+	      ( cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh ) \
+	        && { if test -f $@; then exit 0; else break; fi; }; \
+	      exit 1;; \
+	  esac; \
+	done; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --gnu dic/Makefile'; \
+	$(am__cd) $(top_srcdir) && \
+	  $(AUTOMAKE) --gnu dic/Makefile
+Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
+	@case '$?' in \
+	  *config.status*) \
+	    cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh;; \
+	  *) \
+	    echo ' cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe)'; \
+	    cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@ $(am__depfiles_maybe);; \
+	esac;
+
+$(top_builddir)/config.status: $(top_srcdir)/configure $(CONFIG_STATUS_DEPENDENCIES)
+	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+
+$(top_srcdir)/configure:  $(am__configure_deps)
+	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+$(ACLOCAL_M4):  $(am__aclocal_m4_deps)
+	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
+$(am__aclocal_m4_deps):
+install-dicDATA: $(dic_DATA)
+	@$(NORMAL_INSTALL)
+	@list='$(dic_DATA)'; test -n "$(dicdir)" || list=; \
+	if test -n "$$list"; then \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(dicdir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(dicdir)" || exit 1; \
+	fi; \
+	for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  echo "$$d$$p"; \
+	done | $(am__base_list) | \
+	while read files; do \
+	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(dicdir)'"; \
+	  $(INSTALL_DATA) $$files "$(DESTDIR)$(dicdir)" || exit $$?; \
+	done
+
+uninstall-dicDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(dic_DATA)'; test -n "$(dicdir)" || list=; \
+	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
+	dir='$(DESTDIR)$(dicdir)'; $(am__uninstall_files_from_dir)
+tags TAGS:
+
+ctags CTAGS:
+
+cscope cscopelist:
+
+
+distdir: $(DISTFILES)
+	@srcdirstrip=`echo "$(srcdir)" | sed 's/[].[^$$\\*]/\\\\&/g'`; \
+	topsrcdirstrip=`echo "$(top_srcdir)" | sed 's/[].[^$$\\*]/\\\\&/g'`; \
+	list='$(DISTFILES)'; \
+	  dist_files=`for file in $$list; do echo $$file; done | \
+	  sed -e "s|^$$srcdirstrip/||;t" \
+	      -e "s|^$$topsrcdirstrip/|$(top_builddir)/|;t"`; \
+	case $$dist_files in \
+	  */*) $(MKDIR_P) `echo "$$dist_files" | \
+			   sed '/\//!d;s|^|$(distdir)/|;s,/[^/]*$$,,' | \
+			   sort -u` ;; \
+	esac; \
+	for file in $$dist_files; do \
+	  if test -f $$file || test -d $$file; then d=.; else d=$(srcdir); fi; \
+	  if test -d $$d/$$file; then \
+	    dir=`echo "/$$file" | sed -e 's,/[^/]*$$,,'`; \
+	    if test -d "$(distdir)/$$file"; then \
+	      find "$(distdir)/$$file" -type d ! -perm -700 -exec chmod u+rwx {} \;; \
+	    fi; \
+	    if test -d $(srcdir)/$$file && test $$d != $(srcdir); then \
+	      cp -fpR $(srcdir)/$$file "$(distdir)$$dir" || exit 1; \
+	      find "$(distdir)/$$file" -type d ! -perm -700 -exec chmod u+rwx {} \;; \
+	    fi; \
+	    cp -fpR $$d/$$file "$(distdir)$$dir" || exit 1; \
+	  else \
+	    test -f "$(distdir)/$$file" \
+	    || cp -p $$d/$$file "$(distdir)/$$file" \
+	    || exit 1; \
+	  fi; \
+	done
+check-am: all-am
+check: check-am
+all-am: Makefile $(DATA)
+installdirs:
+	for dir in "$(DESTDIR)$(dicdir)"; do \
+	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
+	done
+install: install-am
+install-exec: install-exec-am
+install-data: install-data-am
+uninstall: uninstall-am
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+
+installcheck: installcheck-am
+install-strip:
+	if test -z '$(STRIP)'; then \
+	  $(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM="$(INSTALL_STRIP_PROGRAM)" \
+	    install_sh_PROGRAM="$(INSTALL_STRIP_PROGRAM)" INSTALL_STRIP_FLAG=-s \
+	      install; \
+	else \
+	  $(MAKE) $(AM_MAKEFLAGS) INSTALL_PROGRAM="$(INSTALL_STRIP_PROGRAM)" \
+	    install_sh_PROGRAM="$(INSTALL_STRIP_PROGRAM)" INSTALL_STRIP_FLAG=-s \
+	    "INSTALL_PROGRAM_ENV=STRIPPROG='$(STRIP)'" install; \
+	fi
+mostlyclean-generic:
+
+clean-generic:
+
+distclean-generic:
+	-test -z "$(CONFIG_CLEAN_FILES)" || rm -f $(CONFIG_CLEAN_FILES)
+	-test . = "$(srcdir)" || test -z "$(CONFIG_CLEAN_VPATH_FILES)" || rm -f $(CONFIG_CLEAN_VPATH_FILES)
+	-test -z "$(DISTCLEANFILES)" || rm -f $(DISTCLEANFILES)
+
+maintainer-clean-generic:
+	@echo "This command is intended for maintainers to use"
+	@echo "it deletes files that may require special tools to rebuild."
+	-test -z "$(MAINTAINERCLEANFILES)" || rm -f $(MAINTAINERCLEANFILES)
+clean: clean-am
+
+clean-am: clean-generic mostlyclean-am
+
+distclean: distclean-am
+	-rm -f Makefile
+distclean-am: clean-am distclean-generic
+
+dvi: dvi-am
+
+dvi-am:
+
+html: html-am
+
+html-am:
+
+info: info-am
+
+info-am:
+
+install-data-am: install-dicDATA
+
+install-dvi: install-dvi-am
+
+install-dvi-am:
+
+install-exec-am:
+
+install-html: install-html-am
+
+install-html-am:
+
+install-info: install-info-am
+
+install-info-am:
+
+install-man:
+
+install-pdf: install-pdf-am
+
+install-pdf-am:
+
+install-ps: install-ps-am
+
+install-ps-am:
+
+installcheck-am:
+
+maintainer-clean: maintainer-clean-am
+	-rm -f Makefile
+maintainer-clean-am: distclean-am maintainer-clean-generic
+
+mostlyclean: mostlyclean-am
+
+mostlyclean-am: mostlyclean-generic
+
+pdf: pdf-am
+
+pdf-am:
+
+ps: ps-am
+
+ps-am:
+
+uninstall-am: uninstall-dicDATA
+
+.MAKE: install-am install-strip
+
+.PHONY: all all-am check check-am clean clean-generic cscopelist-am \
+	ctags-am distclean distclean-generic distdir dvi dvi-am html \
+	html-am info info-am install install-am install-data \
+	install-data-am install-dicDATA install-dvi install-dvi-am \
+	install-exec install-exec-am install-html install-html-am \
+	install-info install-info-am install-man install-pdf \
+	install-pdf-am install-ps install-ps-am install-strip \
+	installcheck installcheck-am installdirs maintainer-clean \
+	maintainer-clean-generic mostlyclean mostlyclean-generic pdf \
+	pdf-am ps ps-am tags-am uninstall uninstall-am \
+	uninstall-dicDATA
+
+.PRECIOUS: Makefile
+
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:
