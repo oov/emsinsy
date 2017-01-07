@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<title>Sinsy emscripten</title>
+<style>.hide{display:none}audio{display:block}#in{border:1px dashed #aaa;padding:8px}#out{border:1px dashed #88f;padding:8px}</style>
+<h1>Sinsy emscripten</h1>
+<p>Sinsy で MusicXML ファイルから Wave ファイルを生成します。</p>
+<p>最新の Chrome / Firefox / Edge が必要です。</p>
+<dl id="in">
+  <dt>サンプルファイルで試す</dt>
+  <dd><input id="sample" type="button" value="SAMPLE.xml で試す"></dd>
+  <dt><label for="infile">ファイルで試す</label></dt>
+  <dd><input id="infile" type="file" accept=".xml,.mxl"></dd>
+</dl>
+<div id="out" class="hide"></div>
+<script>
+const inElem = document.getElementById("in");
+const infileElem = document.getElementById("infile");
+const sampleElem = document.getElementById("sample");
+const outElem = document.getElementById("out");
+
+let url;
+function render(blob) {
+  const w = new Worker("emsinsy.js");
+  w.postMessage(blob);
+  w.onmessage = e => {
+    switch (e.data.msg) {
+    case "initialize":
+      outElem.innerHTML = "準備しています...";
+      break;
+    case "rendering":
+      outElem.innerHTML = `<img src="processing.gif"> Wave ファイルを生成しています...`;
+      break;
+    case "complete":
+      if (url) {
+        window.URL.revokeObjectURL(url);
+      }
+      url = window.URL.createObjectURL(new Blob([e.data.buffer], {type: "audio/wav"}));
+      outElem.innerHTML = `<audio src="${url}" controls></audio><a href="${url}" download="output.wav">output.wav</a>`;
+      console.log(`rendering: ${e.data.time/1000}sec(s).`);
+      inElem.classList.remove("hide");
+      break;
+    }
+  };
+  w.onerror = e => {
+    outElem.innerHTML = "処理中にエラーが発生しました";
+    inElem.classList.remove("hide");
+  };
+  infileElem.value = "";
+  inElem.classList.add("hide");
+  outElem.classList.remove("hide");
+}
+
+inElem.onchange = e => render(infileElem.files[0]);
+sampleElem.onclick = e => fetch("SAMPLE.xml").then(resp => resp.blob()).then(blob => render(blob));
+</script>
+<h2>これは何か</h2>
+<p>Sinsy を <a href="http://kripken.github.io/emscripten-site/">emscripten</a> でコンパイルしてみたものです。</p>
+<p>Wave ファイルの生成処理が全てブラウザ側で行われます。</p>
+<h2>使用させていただいたライブラリ</h2>
+<dl>
+  <dt><a href="http://sinsy.sourceforge.net">Sinsy</a> v0.92</dt>
+  <dd><pre>
+/* ----------------------------------------------------------------- */
+/*           The HMM-Based Singing Voice Synthesis System "Sinsy"    */
+/*           developed by Sinsy Working Group                        */
+/*           http://sinsy.sourceforge.net/                           */
+/* ----------------------------------------------------------------- */
+/*                                                                   */
+/*  Copyright (c) 2009-2015  Nagoya Institute of Technology          */
+/*                           Department of Computer Science          */
+/*                                                                   */
+/* All rights reserved.                                              */
+/*                                                                   */
+/* Redistribution and use in source and binary forms, with or        */
+/* without modification, are permitted provided that the following   */
+/* conditions are met:                                               */
+/*                                                                   */
+/* - Redistributions of source code must retain the above copyright  */
+/*   notice, this list of conditions and the following disclaimer.   */
+/* - Redistributions in binary form must reproduce the above         */
+/*   copyright notice, this list of conditions and the following     */
+/*   disclaimer in the documentation and/or other materials provided */
+/*   with the distribution.                                          */
+/* - Neither the name of the Sinsy working group nor the names of    */
+/*   its contributors may be used to endorse or promote products     */
+/*   derived from this software without specific prior written       */
+/*   permission.                                                     */
+/*                                                                   */
+/* THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND            */
+/* CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,       */
+/* INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF          */
+/* MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE          */
+/* DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS */
+/* BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,          */
+/* EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED   */
+/* TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,     */
+/* DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON */
+/* ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,   */
+/* OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY    */
+/* OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE           */
+/* POSSIBILITY OF SUCH DAMAGE.                                       */
+/* ----------------------------------------------------------------- */
+</pre></dd>
+  <dt><a href="http://hts-engine.sourceforge.net">hts_engine API</a> v1.10</dt>
+  <dd><pre>
+/* ----------------------------------------------------------------- */
+/*           The HMM-Based Speech Synthesis Engine "hts_engine API"  */
+/*           developed by HTS Working Group                          */
+/*           http://hts-engine.sourceforge.net/                      */
+/* ----------------------------------------------------------------- */
+/*                                                                   */
+/*  Copyright (c) 2001-2015  Nagoya Institute of Technology          */
+/*                           Department of Computer Science          */
+/*                                                                   */
+/*                2001-2008  Tokyo Institute of Technology           */
+/*                           Interdisciplinary Graduate School of    */
+/*                           Science and Engineering                 */
+/*                                                                   */
+/* All rights reserved.                                              */
+/*                                                                   */
+/* Redistribution and use in source and binary forms, with or        */
+/* without modification, are permitted provided that the following   */
+/* conditions are met:                                               */
+/*                                                                   */
+/* - Redistributions of source code must retain the above copyright  */
+/*   notice, this list of conditions and the following disclaimer.   */
+/* - Redistributions in binary form must reproduce the above         */
+/*   copyright notice, this list of conditions and the following     */
+/*   disclaimer in the documentation and/or other materials provided */
+/*   with the distribution.                                          */
+/* - Neither the name of the HTS working group nor the names of its  */
+/*   contributors may be used to endorse or promote products derived */
+/*   from this software without specific prior written permission.   */
+/*                                                                   */
+/* THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND            */
+/* CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,       */
+/* INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF          */
+/* MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE          */
+/* DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS */
+/* BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,          */
+/* EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED   */
+/* TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,     */
+/* DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON */
+/* ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,   */
+/* OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY    */
+/* OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE           */
+/* POSSIBILITY OF SUCH DAMAGE.                                       */
+/* ----------------------------------------------------------------- */
+</pre></dd>
+  <dd>
+※emscripten でコンパイルするにあたり、以下の箇所を改変しました。変更部分はパブリックドメインとします。
+<pre>
+--- a/lib/HTS_misc.c
++++ b/lib/HTS_misc.c
+@@ -243,6 +243,9 @@ size_t HTS_ftell(HTS_File * fp)
+    if (fp == NULL) {
+       return 0;
+    } else if (fp-&gt;type == HTS_FILE) {
++#if defined(EMSCRIPTEN)
++      return (size_t) ftell((FILE *) fp-&gt;pointer);
++#else
+       fpos_t pos;
+       fgetpos((FILE *) fp-&gt;pointer, &amp;pos);
+ #if defined(_WIN32) || defined(__CYGWIN__) || defined(__APPLE__) || defined(__ANDROID__)
+@@ -250,6 +253,7 @@ size_t HTS_ftell(HTS_File * fp)
+ #else
+       return (size_t) pos.__pos;
+ #endif                          /* _WIN32 || __CYGWIN__ || __APPLE__ || __ANDROID__ */
++#endif
+    } else if (fp-&gt;type == HTS_DATA) {
+       HTS_Data *d = (HTS_Data *) fp-&gt;pointer;
+       return d-&gt;index;
+</pre>
+  </dd>
+  <dt><a href="http://sinsy.sourceforge.net">HTS voice &quot;NIT SONG070 F001&quot;</a> v0.90</dt>
+  <dd><pre>
+# ----------------------------------------------------------------- #
+#           HTS Voice "NIT SONG070 F001"                            #
+#           released by Sinsy Working Group                         #
+#           http://sinsy.sourceforge.net/                           #
+# ----------------------------------------------------------------- #
+#                                                                   #
+#  Copyright (c) 2009-2013  Nagoya Institute of Technology          #
+#                           Department of Computer Science          #
+#                                                                   #
+# Some rights reserved.                                             #
+#                                                                   #
+# This work is licensed under the Creative Commons Attribution 3.0  #
+# license.                                                          #
+#                                                                   #
+# You are free:                                                     #
+#  * to Share - to copy, distribute and transmit the work           #
+#  * to Remix - to adapt the work                                   #
+# Under the following conditions:                                   #
+#  * Attribution - You must attribute the work in the manner        #
+#    specified by the author or licensor (but not in any way that   #
+#    suggests that they endorse you or your use of the work).       #
+# With the understanding that:                                      #
+#  * Waiver - Any of the above conditions can be waived if you get  #
+#    permission from the copyright holder.                          #
+#  * Public Domain - Where the work or any of its elements is in    #
+#    the public domain under applicable law, that status is in no   #
+#    way affected by the license.                                   #
+#  * Other Rights - In no way are any of the following rights       #
+#    affected by the license:                                       #
+#     - Your fair dealing or fair use rights, or other applicable   #
+#       copyright exceptions and limitations;                       #
+#     - The author's moral rights;                                  #
+#     - Rights other persons may have either in the work itself or  #
+#       in how the work is used, such as publicity or privacy       #
+#       rights.                                                     #
+#  * Notice - For any reuse or distribution, you must make clear to #
+#    others the license terms of this work. The best way to do this #
+#    is with a link to this web page.                               #
+#                                                                   #
+# See http://creativecommons.org/ for details.                      #
+# ----------------------------------------------------------------- #
+</pre></dd>
+</html>
