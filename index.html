@@ -39,6 +39,7 @@ function render(blob) {
       outElem.innerHTML = `<audio src="${url}" controls></audio><a href="${url}" download="output.wav">output.wav</a>`;
       console.log(`rendering: ${e.data.time/1000}sec(s).`);
       inElem.classList.remove("hide");
+      w.terminate();
       break;
     }
   };
